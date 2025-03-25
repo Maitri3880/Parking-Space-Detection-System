@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 2
+names: ['Car', 'Empty']
+
+roboflow:
+  workspace: car-parking-space-detection-0g0hr
+  project: car-parking-space-kdim8
+  version: 9
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/car-parking-space-detection-0g0hr/car-parking-space-kdim8/dataset/9
